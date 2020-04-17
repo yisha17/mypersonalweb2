@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Serif|Rochester|Oswald|Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Serif|El+Messiri|Carter+One|Oswald|Vidaloka&display=swap');
 body{
     border: 2px solid gray;
     margin: 2vw 10vw;
@@ -19,39 +19,31 @@ body{
     font-family: noto serif;
     margin-bottom: 3vh;
 }
+.container #head4{
+    border-bottom: 2px dotted gray;
+    border-top: 2px dotted gray;
+    padding: 2vh 0;
+    font-family: el messiri;
+    color: rebeccapurple;
+    text-align: center;
+}
 .container p{
     font-family: vidaloka;
     font-size: 29;
 }
+
 .container #head3{
     font-family: concert one;
     padding:2vh 2vw;
     margin-bottom: 3vh;
 }
-.container ul>li{
-    font-family: rochester;
-    font-size: 25px;
+
+.container .form2{
+    list-style-type:none;
+   
 }
-.container .ser{
-    color: indigo;
-}
-.container .per{
-    color: rgb(95, 130, 0);
-}
-.container .ter{
-    color: brown;
-}
-.container .rar{
-    color: rgb(71, 197, 255);
-}.container .sar{
-    color: gold;
-}.container .par{
-    color: purple;
-}.container .nar{
-    color: tomato;
-}
-.container .sas{
-    color: green;
+.container ul>li>input,select{
+    width:30vw;
 }
 
 .wall{
@@ -65,7 +57,6 @@ body{
 }
 .twitter{
     border: 1px solid gray;
-    border-radius: 1vh;
 }
 @media only screen and (max-width: 900px) {
     .wall {
