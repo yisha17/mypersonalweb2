@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Serif|Oswald|Vidaloka&display=swap');
+body{
+    border: 2px solid gray;
+    margin: 2vw 10vw;
+}
+.head1 h1{
+    font-size: 7vmax;
+}
+.navigation{
+    background-color: indigo;
+}
+.container nav a{
+    color: white;
+}
+.container #head2{
+    border-bottom: 2px dotted gray;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    font-family: noto serif;
+    margin-bottom: 3vh;
+}
+.container p{
+    font-family: vidaloka;
+    font-size: 29;
+}
+.container #head3{
+    font-family: concert one;
+    padding:2vh 2vw;
+    margin-bottom: 3vh;
+}
+.wall{
+    border-left: 2px dotted  gray;
+}
+.contact{
+    border-bottom: 2px dotted gray;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+
+}
+.twitter{
+    border: 1px solid gray;
+}
+@media only screen and (max-width: 600px) {
+    .wall {
+      border-left: 0px;
+    }
+  }
+
