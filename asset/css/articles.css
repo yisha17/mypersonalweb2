@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Serif|El+Messiri|Carter+One|Oswald|Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Serif|Oswald|Vidaloka&display=swap');
 body{
     border: 2px solid gray;
     margin: 2vw 10vw;
@@ -15,15 +15,7 @@ body{
 .container #head2{
     border-bottom: 2px dotted gray;
     padding: 20px 10px;
-    text-transform: capitalize;
-    font-family: noto serif;
-    margin-bottom: 3vh;
-}
-.container #head4{
-    border-bottom: 2px dotted gray;
-    border-top: 2px dotted gray;
-    padding: 20px 10px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: noto serif;
     margin-bottom: 3vh;
 }
@@ -35,12 +27,6 @@ body{
     font-family: concert one;
     padding:2vh 2vw;
     margin-bottom: 3vh;
-}
-.container .goals{
-    font-family: el messiri;
-}
-.container ul>li{
-    font-family:carter one ;
 }
 .wall{
     border-left: 2px dotted  gray;
@@ -55,8 +41,9 @@ body{
     border: 1px solid gray;
     border-radius: 1vh;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .wall {
       border-left: 0px;
     }
   }
+
