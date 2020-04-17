@@ -27,6 +27,10 @@ body{
     font-family: righteous;
     font-size: 20px;
 }
+.container .font p a{
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 900px) {
     .wall {
       border-left: 0px;
