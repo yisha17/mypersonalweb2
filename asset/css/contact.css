@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Serif|El+Messiri|Carter+One|Oswald|Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Russo+One|Noto+Serif|El+Messiri|Carter+One|Oswald|Vidaloka&display=swap');
 body{
     border: 2px solid gray;
     margin: 2vw 10vw;
@@ -11,7 +11,11 @@ body{
 }
 .container nav a{
     color: white;
+    text-align: center;
 }
+.navbar a:hover {
+    color:white;
+  }
 .container #head2{
     border-bottom: 2px dotted gray;
     padding: 20px 10px;
@@ -43,7 +47,17 @@ body{
    
 }
 .container ul>li>input,select{
-    width:30vw;
+    width:35vw;
+    border-radius: 1vw;
+    height: 7vh;
+    font-family: el messiri;
+    font-size: 20px;
+}
+.container ul>li>label{
+    font-family: russo one;
+    font-size: 20px;
+    font-weight: lighter;
+    color: seashell;
 }
 
 .wall{
